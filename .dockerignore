@@ -1,0 +1,9 @@
+manifest/
+.github/
+Dockerfile
+README.md
+CONTRIBUTING.md
+LICENSE
+.gitignore
+.env
+.dockerignore
