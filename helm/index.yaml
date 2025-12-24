@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  webapp-chart:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2025-12-25T01:50:31.6575862+05:30"
+    description: A Helm chart to deploy book management web application
+    digest: adf02a69d3b220358bdf00f4fa1a83edbf9f6e7091a0d2c74a4479ccb705c4b9
+    keywords:
+    - webapp
+    - helm
+    - kubernetes
+    - book management
+    maintainers:
+    - email: mahinraza556@gmail.com
+      name: Mahin raza
+    name: webapp-chart
+    type: application
+    urls:
+    - webapp-chart-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-12-25T01:50:31.6558837+05:30"

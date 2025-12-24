@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: mahinraza556
+  name: webapp
+  tag: v1
+servicePort: 80
+containerPort: 8080
