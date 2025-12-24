@@ -101,7 +101,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/webapp:${{github.run_id}}
+        tags: ${{ vars.DOCKERHUB_USERNAME }}/webapp:${{github.run_id}}
 
   update-newtag-in-helm-chart:
     runs-on: ubuntu-latest
